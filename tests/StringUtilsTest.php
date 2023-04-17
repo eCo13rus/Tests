@@ -1,6 +1,6 @@
 <?php
 
-require "src/StringUtils.php";
+require_once __DIR__ . "/../src/StringUtils.php";
 
 if (StringUtils\capitalize('hello') !== 'Hello') {
     throw new \Exception('Функция работает неверно!');
